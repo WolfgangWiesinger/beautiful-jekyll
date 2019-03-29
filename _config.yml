@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://wolfgangwiesinger.github.io/wolfgangwiesinger-website/"
-baseurl: "/wolfgangwiesinger-website"
+url: "https://wolfgangwiesinger.github.io"
+baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 #url: "https://wolfgangwiesinger.github.io/wolfgangwiesinger-website"
@@ -26,11 +26,6 @@ navbar-links:
   About Me: "/aboutme.md"
   Assignment:
     - 3rd Assignment: "_posts/29-03-2019_3rd_Assignment.md"
-    - 4th Assignment: "_posts/29-03-2019_4th_Assignment.md"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -66,18 +61,18 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Wolfgang Wiesinger
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
+# social-network-links:
   # rss: true
-  email: "someone@example.com"
-  facebook: Wolfgang Wiesinger
-  github: WolfgangWiesinger
-  twitter: @wol_89
+  # email: "someone@example.com"
+  # facebook: Wolfgang Wiesinger
+  # github: WolfgangWiesinger
+  # twitter: @wol_89
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -94,7 +89,7 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   google: false
   linkedin: false
@@ -135,14 +130,14 @@ share-links-active:
 
 # Staticman support
 staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  repository : GitHub username/repository eg. "WolfgangWiesinger/wolfgangwiesinger-website"
+  branch     : "master"
   endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    # siteKey  : # Use your own site key, you need to apply for one on Google
+    # secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
