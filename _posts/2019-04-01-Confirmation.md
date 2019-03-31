@@ -5,10 +5,10 @@ subtitle: Courses on git and markdown
 ---
 
 I finished the Courses on 
-git
-![git](/img/gitcourse-finished.png)
+git  
+![git](/wolfgangwiesinger-website/img/gitcourse-finished.png)
 
 
 markdown
-![markdown](/img/markdowncourse-finished.png)
+![markdown](/wolfgangwiesinger-website/img/markdowncourse-finished.png)
 
