@@ -23,9 +23,9 @@ description: This site was created as the 3rd assignment of course 070146
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "/wolfgangwiesinger-website/aboutme.md"
+  About Me: "wolfgangwiesinger-website/aboutme.md"
   Assignment:
-    - 3rd Assignment: "/wolfgangwiesinger-website/_posts/2019-04-01-Confirmation.md "
+    - 3rd Assignment: "wolfgangwiesinger-website/01-04-2019-Confirmation/ "
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
