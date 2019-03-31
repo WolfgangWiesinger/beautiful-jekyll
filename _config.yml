@@ -23,7 +23,7 @@ description: This site was created as the 3rd assignment of course 070146
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "https://github.com/WolfgangWiesinger/wolfgangwiesinger-website/aboutme.md"
+  About Me: "/aboutme.md"
   Assignment:
     - 3rd Assignment: "01-04-2019-Confirmation"
 
